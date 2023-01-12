@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ICountDownNotifier.cs" />
+    <Compile Remove="TimerHandlerByDelegates.cs" />
+    <Compile Remove="TimerHandlerByLambdas.cs" />
+    <Compile Remove="TimerHandlerByMethods.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Timer\Timer.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>RootCalculation</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Base32.cs" />
+    <Compile Remove="Base64.cs" />
+    <Compile Remove="BaseSystemOfNumbers.cs" />
+    <Compile Remove="Binary.cs" />
+    <Compile Remove="Hexadecimal.cs" />
+    <Compile Remove="Octal.cs" />
+  </ItemGroup>
+
+</Project>
